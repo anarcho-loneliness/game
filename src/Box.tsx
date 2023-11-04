@@ -1,6 +1,5 @@
-import { createRoot } from "react-dom/client";
-import React, { useRef, useState } from "react";
-import { Canvas, MeshProps, useFrame } from "@react-three/fiber";
+import { useRef, useState } from "react";
+import { MeshProps, useFrame } from "@react-three/fiber";
 import { Mesh } from "three";
 
 export function Box(props: MeshProps) {
