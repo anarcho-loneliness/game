@@ -17,6 +17,7 @@ export function Box(props: MeshProps) {
   return (
     <mesh
       {...props}
+      // @ts-expect-error bugged
       ref={meshRef}
       scale={active ? 1.5 : 1}
       onClick={() => setActive(!active)}
