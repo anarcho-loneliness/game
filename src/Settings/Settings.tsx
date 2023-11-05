@@ -198,7 +198,7 @@ const Content = styled(animated(Dialog.Content), {
   backgroundImage: "linear-gradient(330deg,#8e4ec6 0,#3e63dd 100%)",
   borderRadius: "16px 0",
   padding: "24px 24px 32px",
-  left: "25vw",
+  left: "calc(25vw - 24px)",
 });
 
 const DialogHeader = styled("header", {
