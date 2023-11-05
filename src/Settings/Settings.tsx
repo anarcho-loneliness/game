@@ -114,7 +114,7 @@ const TriggerPart = styled("span", {
   left: 0,
   width: "100%",
   height: "100%",
-  borderRadius: 8,
+  borderRadius: "16px 0",
 });
 
 const TriggerShadow = styled(TriggerPart, {
@@ -136,7 +136,7 @@ const TriggerEdge = styled(TriggerPart, {
 const TriggerLabel = styled("span", {
   display: "block",
   position: "relative",
-  borderRadius: 8,
+  borderRadius: "16px 0",
   color: "#569AFF",
   fontSize: "14px",
   padding: "16px 24px",
@@ -196,7 +196,7 @@ const Content = styled(animated(Dialog.Content), {
   width: "50vw",
   height: "60vh",
   backgroundImage: "linear-gradient(330deg,#8e4ec6 0,#3e63dd 100%)",
-  borderRadius: 8,
+  borderRadius: "16px 0",
   padding: "24px 24px 32px",
   left: "25vw",
 });
